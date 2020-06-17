@@ -8,3 +8,12 @@ of installing [Xubuntu](https://xubuntu.org/) on my new laptop I left Windows 10
 to use the premier chess database [Chessbase](https://en.chessbase.com/). Instead of building a dual boot 
 system I decided to give Windows 10 and [Windows Subsystem for Linux 2](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 a chance.
+
+Do bear in mind that this is a personal document and the last time I have really administrated Windows systems was 
+when Windows NT4 was brand new. That makes me a complete beginner as far as modern Windows systems are concerned.
+
+## Git Bash
+
+While [Git](https://git-scm.com/) is an excellent version control system, it also provides a reasonable collection
+of UNIX command line tools including vim, cut, awk and grep. If you're an UNIX dinosaur like me, do install it.
+
