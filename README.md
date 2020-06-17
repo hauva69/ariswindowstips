@@ -15,7 +15,7 @@ when Windows NT4 was brand new. That makes me a complete beginner as far as mode
 ## Git Bash
 
 While [Git](https://git-scm.com/) is an excellent version control system, it also provides a reasonable collection
-of UNIX command line tools including vim, cut, awk and grep. If you're an UNIX dinosaur like me, do install it.
+of UNIX command line tools including vim, cut, ssh, openssl, awk and grep. If you're an UNIX dinosaur like me, do install it.
 
 ## Setting Path
 
