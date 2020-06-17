@@ -24,3 +24,10 @@ there are several ways of setting the path.
 
 - [Set path from command line](https://www.windows-commandline.com/set-path-command-line/)
 - [Manage the Windows PATH environment variable with PowerShell](https://searchitoperations.techtarget.com/answer/Manage-the-Windows-PATH-environment-variable-with-PowerShell)
+
+## Python
+
+Add Python directories to your path, for example:
+
+- c:\users\ari\AppData\Local\Programs\Python\Python38-32
+- c:\users\ari\AppData\Local\Programs\Python\Python38-32\Scripts
