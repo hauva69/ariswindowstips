@@ -17,3 +17,10 @@ when Windows NT4 was brand new. That makes me a complete beginner as far as mode
 While [Git](https://git-scm.com/) is an excellent version control system, it also provides a reasonable collection
 of UNIX command line tools including vim, cut, awk and grep. If you're an UNIX dinosaur like me, do install it.
 
+## Setting Path
+
+I needed Python interpreter, but after the installation the Python executable was not in my path. It turned aout, that 
+there are several ways of setting the path.
+
+- [Set path from command line](https://www.windows-commandline.com/set-path-command-line/)
+- [Manage the Windows PATH environment variable with PowerShell](https://searchitoperations.techtarget.com/answer/Manage-the-Windows-PATH-environment-variable-with-PowerShell)
