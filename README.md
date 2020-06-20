@@ -31,3 +31,7 @@ Add Python directories to your path, for example:
 
 - c:\users\ari\AppData\Local\Programs\Python\Python38-32
 - c:\users\ari\AppData\Local\Programs\Python\Python38-32\Scripts
+
+## Using an Android Tablet as Second Monitor
+
+My laptop has a 14" screen and for what I do I really need a dual, preferably three, monitor system so I started to wonder whether I could use my Android tablet as a second monitor. After very little googling I found the page [6 Ways to Use Your Android as Second Monitor For Your Computer](https://techwiser.com/use-your-android-as-second-monitor/). I ended up installing [Splashtop Wired XDisplay Free](https://play.google.com/store/apps/details?id=com.splashtop.xdisplay.wired.free) which seemed to work well enough with my low end tablet, so I paid 7.99 € for the version in which the session is not limited to ten minutes.
