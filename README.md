@@ -59,3 +59,17 @@ PS C:\Users\hauva> wsl --list --verbose
 ```powershell
 wsl --set-version Ubuntu-20.04 2
 ```
+
+### Shutting down Linux systems
+
+```powershell
+wsl --shutdown
+```
+
+#### Shutting down everything
+
+```powershell
+wsl -t <DistroName>
+```
+
+
