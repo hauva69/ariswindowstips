@@ -35,3 +35,27 @@ Add Python directories to your path, for example:
 ## Using an Android Tablet as Second Monitor
 
 My laptop has a 14" screen and for what I do I really need a dual, preferably three, monitor system so I started to wonder whether I could use my Android tablet as a second monitor. After very little googling I found the page [6 Ways to Use Your Android as Second Monitor For Your Computer](https://techwiser.com/use-your-android-as-second-monitor/). I ended up installing [Splashtop Wired XDisplay Free](https://play.google.com/store/apps/details?id=com.splashtop.xdisplay.wired.free) which seemed to work well enough with my low end tablet, so I paid 7.99 € for the version in which the session is not limited to ten minutes.
+
+## Windows Subsystem for Linux (WSL)
+
+WSL 2, release in May of 2020, provides a way of running a full Linux
+enviroments on top of Windows provided that the build of Windows 10 is
+[recent enough (Version 2004, Build 19041 or
+higher)](https://docs.microsoft.com/en-us/windows/wsl/wsl2-index).
+
+### Listing the installed Linux systems
+
+```powershell
+PS C:\Users\hauva> wsl --list
+Windows Subsystem for Linux Distributions:
+Ubuntu-20.04 (Default)
+PS C:\Users\hauva> wsl --list --verbose
+  NAME            STATE           VERSION
+* Ubuntu-20.04    Running         2
+```
+
+### Setting the WSL version of a Linux system
+
+```powershell
+wsl --set-version Ubuntu-20.04 2
+```
