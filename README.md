@@ -72,4 +72,13 @@ wsl --shutdown
 wsl -t <DistroName>
 ```
 
+### Running screen under WSL
 
+`screen` fails to start under Ubuntu 20.04 complaining about the rights of directory */run*.
+
+```bash
+sudo /etc/init.d/screen-cleanup start
+screen
+```
+
+And, voilà, screen works.
