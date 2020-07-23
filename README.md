@@ -66,7 +66,7 @@ wsl --set-version Ubuntu-20.04 2
 wsl --shutdown
 ```
 
-#### Shutting down everything
+### Shutting down everything
 
 ```powershell
 wsl -t <DistroName>
