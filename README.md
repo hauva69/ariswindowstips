@@ -21,7 +21,7 @@ when Windows NT4 was brand new. That makes me a complete beginner as far as mode
 While [Git](https://git-scm.com/) is an excellent version control system, it also provides a reasonable collection
 of UNIX command line tools including vim, cut, ssh, openssl, awk and grep. If you're an UNIX dinosaur like me, do install it.
 
-## Setting Path
+## Setting the Path
 
 I needed Python interpreter, but after the installation the Python executable was not in my path. It turned aout, that 
 there are several ways of setting the path.
