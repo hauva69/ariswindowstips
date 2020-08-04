@@ -16,6 +16,18 @@ a chance.
 Do bear in mind that this is a personal document and the last time I have really administrated Windows systems was 
 when Windows NT4 was brand new. That makes me a complete beginner as far as modern Windows systems are concerned.
 
+## Docker
+
+### Deleting all images and containers
+
+[docker-clear.bat](https://gist.github.com/daredude/045910c5a715c02a3d06362830d045b6)
+
+```powershell
+@echo off
+FOR /f "tokens=*" %%i IN ('docker ps -aq') DO docker rm %%i
+FOR /f "tokens=*" %%i IN ('docker images --format "{{.ID}}"') DO docker rmi %%i
+```
+
 ## Git Bash
 
 While [Git](https://git-scm.com/) is an excellent version control system, it also provides a reasonable collection
